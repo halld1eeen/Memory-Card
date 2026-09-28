@@ -76,12 +76,14 @@ q2=Question('Самая высокая гора в мире','Эверест','�
 q3=Question('Назовите первые 3 символа числа Пи','3,14','2,45','6,70','8,92')
 q4=Question('Кто придумал Теорию относительности?','А. Эйнштейн','Н. Тесла','Л. Толстой','Д. Трамп')
 q5=Question('Какая химическая формула воды','H20','NaCl','H3PO4','Ba')
+q6=Question('Какая столица Канады','Оттава','Квебек','Кёльн','Амстердам')
 
 q_list.append(q1)
 q_list.append(q2)
 q_list.append(q3)
 q_list.append(q4)
 q_list.append(q5)
+q_list.append(q6)
 
 def next_q():
     cur_question= randint(0,len(q_list)-1)
